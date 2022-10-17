@@ -106,7 +106,7 @@ module RailsDevelopmentBoost
       end
 
       class Darwin < Base
-        TARGET_OS_REGEX = /darwin(1.+)?$/i
+        TARGET_OS_REGEX = /darwin\d+$/i
         GEM_NAME        = 'rb-fsevent'
         GEM_VERSION     = '>= 0.9.1'
         
